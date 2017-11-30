@@ -24,13 +24,13 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('/w3images/parallax1.jpg');
+    background-image: url('images/img1.jpg');
     min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("/w3images/parallax2.jpg");
+    background-image: url("images/img1.jpg");
     min-height: 400px;
 }
 
@@ -61,7 +61,10 @@ body, html {
     <a href="#home" class="w3-bar-item w3-button">ANASAYFA</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> HAKKINDA</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFÖY</a>
+    <a href="#blog" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-square-o"></i> BLOG</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> İLETİŞİM</a>
+
+
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
     </a>
@@ -69,9 +72,9 @@ body, html {
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">HAKKINDA</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFÖY</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">iLETİŞİM</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
 </div>
@@ -79,7 +82,7 @@ body, html {
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">ÇAĞLAR <span class="w3-hide-small">DENEME</span> BİNGÖL</span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">ÇAĞLAR <span class="w3-hide-small"></span> BİNGÖL</span>
   </div>
 </div>
 
@@ -142,7 +145,7 @@ ilerleyerek mutlu bir hayat geçirmek.</em></p>
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFÖY</span>
   </div>
 </div>
 
@@ -205,7 +208,10 @@ ilerleyerek mutlu bir hayat geçirmek.</em></p>
      <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
   </div>
 </div>
-
+<!-- Blog -->
+<div class="w3-content w3-container w3-padding-64" id="blog">
+	<h3 class="w3-center">BLOG YAZILARIM</h3>
+</div>
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
   <h3 class="w3-center">WHERE I WORK</h3>
