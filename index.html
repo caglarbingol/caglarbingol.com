@@ -416,7 +416,8 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
+  gtag('set', {'UA-110937390-1': 'USER_ID'}); // Kullanıcı kimliğini signed-in user_id parametresini kullanarak ayarlayın.
+  ga('set', 'UA-110937390-1', 'USER_ID');
   gtag('config', 'UA-110937390-1');
 </script>
 </body>
